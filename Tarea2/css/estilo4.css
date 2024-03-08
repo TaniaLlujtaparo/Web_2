@@ -1,0 +1,70 @@
+.contenedor{
+    background-color:darkslategrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caja1{
+    background-color:darkblue;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    border:2px;
+    border-color:rgb(2, 2, 3);
+    border-style:solid;
+}
+.caja2{
+    background-color:rgb(0, 130, 139);
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    border:2px;
+    border-color:rgb(2, 2, 3);
+    border-style:solid;
+}
+.caja3{
+    background-color:rgb(165, 54, 159);
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    border:2px;
+    border-color:rgb(2, 2, 3);
+    border-style:solid;
+    background-size:auto;
+    
+}
+.caja1-1{
+    background-color: rgb(216, 41, 207);
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    float: left;
+}
+.caja1-2{
+    background-color: rgb(177, 39, 115);
+    width: 350px;
+    height: 100px;
+    margin: 5px;
+    clear: both;
+}
+.caja1-3{
+    background-color: rgb(255, 0, 85);
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    float: left;
+}
+.caja2-1{
+    background-color: rgb(104, 240, 26);
+    width: 350px;
+    height: 100px;
+    margin: 5px;
+}
+.caja3-1{
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    float: left;
+}
+
