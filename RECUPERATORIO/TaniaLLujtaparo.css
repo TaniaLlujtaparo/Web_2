@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d8cfcf;
+}
+.nombre{
+    position: absolute;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.monolito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    background-color: #e5c4a1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cabeza {
+    width: 150px;
+    height: 50px;
+    background-color: #d2b48c;
+    border: 4px solid #3b3b3b;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.rostro {
+    width: 140px;
+    height: 60px;
+    background-color: #e5c4a1;
+    border: 4px solid #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.ojo {
+    width: 20px;
+    height: 20px;
+    background-color: #3b3b3b;
+    position: absolute;
+}
+
+.ojo.izquierdo {
+    left: 30px;
+}
+
+.ojo.derecho {
+    right: 30px;
+}
+
+.nariz {
+    width: 20px;
+    height: 30px;
+    background-color: #3b3b3b;
+    position: absolute;
+    top: 20px;
+}
+
+.boca {
+    width: 40px;
+    height: 10px;
+    background-color: #3b3b3b;
+    position: absolute;
+    top: 50px;
+}
+
+.cuerpo {
+    width: 150px;
+    height: 150px;
+    background-color: #e5c4a1;
+    border: 4px solid #3b3b3b;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brazo {
+    width: 30px;
+    height: 90px;
+    background-color: #d2b48c;
+    border: 4px solid #3b3b3b;
+    position: absolute;
+    top: 10px;
+}
+
+.brazo.izquierdo {
+    left: -34px;
+}
+
+.brazo.derecho {
+    right: -34px;
+}
+
+.objeto {
+    width: 40px;
+    height: 70px;
+    background-color: #d2b48c;
+    border: 4px solid #3b3b3b;
+    position: absolute;
+    top: 20px;
+}
+
+.objeto.izquierdo {
+    left: 30px;
+}
+
+.objeto.derecho {
+    right: 30px;
+}
+
+.mano {
+    width: 50px;
+    height: 30px;
+    background-color: #d2b48c;
+    border: 4px solid #3b3b3b;
+    position: absolute;
+    top: 100px;
+}
+
+.mano.izquierda {
+    left: 10px;
+}
+
+.mano.derecha {
+    right: 10px;
+}
+
+.piernas {
+    width: 150px;
+    height: 80px;
+    background-color: #e5c4a1;
+    border-top: 4px solid #3b3b3b;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.pierna {
+    width: 60px;
+    height: 80px;
+    background-color: #d2b48c;
+    border: 4px solid #3b3b3b;
+}
+
+.base {
+    width: 150px;
+    height: 20px;
+    background-color: #d2b48c;
+    border: 4px solid #3b3b3b;
+    border-radius: 0 0 10px 10px;
+}
